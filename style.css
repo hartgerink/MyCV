@@ -1,0 +1,164 @@
+:root {
+  --cv-navy: #16324f;
+  --cv-navy-dark: #0f2338;
+  --cv-accent: #2a9d8f;
+  --cv-alt-bg: #f4f7fa;
+}
+
+html {
+  scroll-padding-top: 70px;
+}
+
+body {
+  color: #26323d;
+}
+
+/* Navigation */
+.site-nav {
+  background-color: var(--cv-navy-dark);
+}
+
+/* Header */
+.hero {
+  background: linear-gradient(135deg, var(--cv-navy-dark), var(--cv-navy) 60%, #1f5a6b);
+}
+
+.hero-tagline {
+  max-width: 560px;
+  opacity: 0.9;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.8);
+  background-color: var(--cv-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.contact-line a {
+  color: #fff;
+}
+
+.contact-line a:hover {
+  color: #bfe8e2;
+}
+
+.contact-line .sep {
+  margin: 0 0.5rem;
+  opacity: 0.6;
+}
+
+/* Sections */
+.section {
+  padding: 4rem 0;
+}
+
+.section-alt {
+  background-color: var(--cv-alt-bg);
+}
+
+.section-title {
+  color: var(--cv-navy);
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--cv-accent);
+  display: inline-block;
+}
+
+/* Skills */
+.skill-card,
+.edu-card {
+  border: none;
+  border-top: 4px solid var(--cv-accent);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.skill-badge {
+  background-color: #e3eef5;
+  color: var(--cv-navy);
+  font-weight: 500;
+  font-size: 0.85rem;
+  padding: 0.45em 0.75em;
+}
+
+.strengths li {
+  padding-left: 1rem;
+  border-left: 3px solid var(--cv-accent);
+}
+
+/* Experience timeline */
+.timeline {
+  border-left: 3px solid #d5e1ea;
+  margin-left: 0.5rem;
+}
+
+.timeline-item {
+  position: relative;
+  padding: 0 0 2rem 1.75rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -9px;
+  top: 6px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--cv-accent);
+  border: 3px solid #fff;
+}
+
+.timeline-item ul {
+  margin-bottom: 0;
+}
+
+.dates {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--cv-accent);
+}
+
+.employer {
+  color: #5b6b78;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+/* Contact */
+.contact-list li {
+  margin-bottom: 0.6rem;
+}
+
+.contact-label {
+  display: inline-block;
+  min-width: 90px;
+  font-weight: 600;
+  color: var(--cv-navy);
+}
+
+a {
+  color: var(--cv-navy);
+}
+
+a:hover {
+  color: var(--cv-accent);
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--cv-navy-dark);
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration: none;
+}
